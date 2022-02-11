@@ -21,6 +21,8 @@ nav {
   width: 250px;
   height: 100%;
   border: 2px solid red;
+  clear: both;
+  float: left;
 }
 .nav-header {
   color: #fdc006;
@@ -33,4 +35,18 @@ nav {
   font-size: 1.25rem;
   color: #777;
   padding: 0.5rem 0;
+}
+/* 
+==========
+Main section
+==========
+*/
+main {
+  float: left;
+}
+span {
+  display: block;
+}
+article h2 {
+  float: left;
 }
