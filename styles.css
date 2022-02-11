@@ -2,3 +2,35 @@
   margin: 0;
   box-sizing: border-box;
 }
+a {
+  text-decoration: none;
+}
+ul {
+  padding: 0;
+  margin-top: 1rem;
+  list-style: none;
+}
+/* 
+==========
+Navbar
+==========
+*/
+
+nav {
+  padding: 1rem;
+  width: 250px;
+  height: 100%;
+  border: 2px solid red;
+}
+.nav-header {
+  color: #fdc006;
+  margin-bottom: 0.5rem;
+}
+.login-link {
+  color: red;
+}
+.nav-item {
+  font-size: 1.25rem;
+  color: #777;
+  padding: 0.5rem 0;
+}
